@@ -1,11 +1,9 @@
 import React from "react";
-import Search from "./components/Button/Search/Search";
-import Button from "./components/Button/Button";
+import Navbar from "./components/Navbar/Navbar"
 function App() {
   return (
    <>
-   <Search placeholder="Enter The Album Name"/>
-   <Button>Give FeedBack</Button>
+   <Navbar/>
    </>
   );
 }
