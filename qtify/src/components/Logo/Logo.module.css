@@ -5,11 +5,9 @@
   }
   
   .icon {
-    width: 50px; /* Adjust the width of the icon container */
-    height: 50px; /* Adjust the height of the icon container */
+    width: 25px; /* Adjust the width of the icon container */
+    height: 25px; /* Adjust the height of the icon container */
     position: absolute;
-    margin-top: 10px;
-    margin-left: 10px;
     /* Add any additional styles for the icon container */
   }
   

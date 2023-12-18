@@ -7,7 +7,7 @@ import styles from "./Navbar.module.css";
 function Navbar() {
   return (
    <div className={styles.wrapper}>
-   <Logo id = "img" placeholder={"Q tify"}/>
+   <Logo placeholder={"Q tify"}/>
    <Search placeholder="search a album of your choice"/>
    <Button>Give Feedback</Button>
    </div>
