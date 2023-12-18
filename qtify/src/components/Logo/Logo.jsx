@@ -6,7 +6,7 @@ function Logo({ placeholder }) {
   return (
     <div className={styles.logoContainer}>
       <div className={styles.icon}>
-        <HeadphoneIcon />
+      <HeadphoneIcon/>
       </div>
       <div className={styles.text}>{placeholder}</div>
     </div>
