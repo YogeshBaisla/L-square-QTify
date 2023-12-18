@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+}
+.herotxt{
+    width: 556px;
+    height: 100px;
+}
+.searchButton{
+    height: 100%;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid var(--color-black);
+    padding: 14px 20px;
+    border-left: none;
+}
