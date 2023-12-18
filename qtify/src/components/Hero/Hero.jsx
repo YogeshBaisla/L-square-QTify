@@ -1,10 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import Vibratingheadphone from "../../assests/vibrating-headphone.svg";
-function Search({placeholder}){
-const onSubmit= (e)=>{
-    e.preventDefault();
-}
+function Hero({placeholder}){
 return (
     <div className={styles.wrapper}>
         <div className={styles.herotxt}>
@@ -19,4 +16,4 @@ return (
     </div>
 )
 }
-export default Search;
+export default Hero;
