@@ -49,3 +49,8 @@ h6{
 #__next {
   isolation: isolate;
 }
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: pointer;
+}
