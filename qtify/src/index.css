@@ -46,6 +46,9 @@ h6{
   overflow-wrap: break-word;
 }
 #root,
+.swiper-slide{
+width: auto !important;
+}
 #__next {
   isolation: isolate;
 }
