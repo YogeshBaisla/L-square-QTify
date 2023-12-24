@@ -23,7 +23,7 @@ export const fetchNewAlbums = async() =>{
 }
 export const fetchSongs = async() =>{
     try{
-        const response = await axios.get(`${BACKEND_POINT}/albums/songs`);
+        const response = await axios.get(`${BACKEND_POINT}/songs`);
         return response.data;
     }
     catch(e){
@@ -32,11 +32,12 @@ export const fetchSongs = async() =>{
 }
 export const fetchfilters = async() =>{
     try{
-        const response = await axios.get(`${BACKEND_POINT}/albums/genres`);
+        const response = await axios.get(`${BACKEND_POINT}/genres`);
         return response.data;
     }
     catch(e){
         console.error(e);
+        return [];
     }
 }
 
